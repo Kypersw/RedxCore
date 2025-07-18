@@ -1,0 +1,3 @@
+report:
+  usage: "&cKullanım: /report <oyuncu> <sebep>"
+  sent: "&aRaporunuz başarıyla iletildi!"

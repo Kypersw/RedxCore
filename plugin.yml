@@ -1,0 +1,12 @@
+name: RedxCore
+version: 1.0.0
+main: com.redxcore.RedxCore
+api-version: 1.13
+commands:
+  report:
+    description: Oyuncu raporu gönderir
+    usage: /<command> <oyuncu> <sebep>
+permissions:
+  redxcore.report:
+    description: Rapor komutunu kullanma izni
+    default: true
