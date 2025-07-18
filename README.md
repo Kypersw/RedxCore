@@ -1,0 +1,2 @@
+# RedxCore
+Minecraft Core Plugini
