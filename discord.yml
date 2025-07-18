@@ -1,22 +1,11 @@
-# RedxCore
-Basit bir ücretsiz core pluginidir. Geliştiriciler için bir altyapı niyetinde paylaşmak istedim. Desteklediği sürümler (Spigot 1.7 - 1.19)
-
-## Özellikler
-
-- Report Sistemi
-- Discord Webhook Entegrasyonu
-- Staff Mode, Punishment System (Geliştirilebilir)
-- Modern mesaj formatları
-
-## Kurulum
-
-1. `config.yml` içindeki webhook URL'nizi girin.
-2. Plugin'i `plugins` klasörüne atın.
-3. Sunucunuzu yeniden başlatın veya `/reload` yapın.
-4. `/report <oyuncu> <sebep>` komutunu kullanarak rapor gönderebilirsiniz.
-
-## Geliştirme
-
-Projeyi Gradle ile derleyebilirsiniz.
-
-
+webhook_template:
+  report:
+    title: "🚨 Yeni Rapor Alındı!"
+    color: 14423100
+    footer: "RedxCore | Rapor Sistemi"
+    icon_url: "https://i.imgur.com/RedxIcon.png"
+  punishment:
+    title: "🔒 Oyuncu Cezalandırıldı"
+    color: 16738680
+    footer: "RedxCore | Ceza Sistemi"
+    icon_url: "https://i.imgur.com/RedxIcon.png"
